@@ -43,7 +43,3 @@ Import the provided `postman-test.postman_collection.json` file into Postman to 
 - On push to `main`, a Docker image is built and pushed to GitHub Container Registry using GitHub Actions.
 
 ---
-
-For debugging, edit code in `app/` and restart the container if needed.
-
----
