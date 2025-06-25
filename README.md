@@ -25,6 +25,7 @@ Run:
 docker compose up -d --build
 ```
 - API: http://localhost:8000
+- Docs: http://localhost:8000/docs
 
 ## Endpoints
 
