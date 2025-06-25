@@ -22,12 +22,9 @@ This repository contains a simple FastAPI application for storing and retrieving
 Run:
 
 ```sh
-docker compose up --build
+docker compose up -d --build
 ```
-
 - API: http://localhost:8000
-- Docs: http://localhost:8000/docs
-- DB: localhost:5432 (user: postgres, pass: postgres)
 
 ## Endpoints
 
