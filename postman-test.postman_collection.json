@@ -1,0 +1,57 @@
+{
+    "info": {
+        "_postman_id": "b1e2c3d4-5678-1234-9abc-def012345678",
+        "name": "Postman Test",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": "Test collection for FastAPI Words endpoints"
+    },
+    "item": [
+        {
+            "name": "Add Word",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"word\": \"example\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8000/word",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "word"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get Words",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8000/words",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "words"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
